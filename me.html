@@ -1,0 +1,74 @@
+<!DOCTYPE html> <!-- Este tipo de etiqueta se cierra solo, a diferencia de Head y body, indica que tipo de documento va a reconocer el navegador. -->
+<html lang="es"> <!-- Se le dice al navegador en que IDIOMA esta -->
+    <head><!-- Aca va todo lo que es mas importante para el navegador para cargar el proyecto que nosotros hicimos pero que no es visual para el usario final, fuentes, css. -->
+        <meta charset="utf-8"><!--  Es para que el navegador comprenda caracteres especiales, como las tildes, una ñ, emojis y se van renderizar como emojis etc  -->
+        <meta name="description" content="Esta pagina te mostrara mi proyecto de Introduccion a Sistemas de Computo"> <!-- Nos ayuda para que la gente que busca en internet en la descripcion que tengamos en la pagina y puede aparecer nuestra pagina. -->
+        <meta name="robots" content="index.follow"><!-- Cuando hago una busqueda en google hace que ciertos robots acomoden en busquedas similares nuestra pagina y se la muestre al usario final, se le pone follow porque autorizo que lo haga y Unfollow para el robot no la muestre. -->
+        <title>Sobre Mi</title><!--  Es el titulo que se muestra en la pestaña del navegador. -->
+        <meta name="viewport" content="with=device-with, inicial-scale=1.0"> <!-- Este meta es cuando se abre la pagina web pueda escalarse un poco el texto y las imagenes y la gente lo pueda ver mejor desde un dispositivo mobil, si no existe este atributo en el telefono hay que hacerle zoom a la pgina desde el movil. -->
+        <link rel="stylesheet" href="./css/style.css"><!-- El primer atributo le indica que va a cargar una hoja de estilos y el segundo indica la ruta o referencia de ese archivo. -->
+        <link rel="icon" type="image/png" href="./img/umg.png"><!-- Para agregar un icono a la pestaña de chrome -->
+    </head>  
+<body>
+    <header><!--  Es el encabezado de la pagina, aca se puede incluir una barra de navegacion, este se basa en la anatomia de htmml -->
+        <H1>Acerca de mi</H1>
+         <nav><!-- Creamos una lista de nevagación  -->
+             <ul class="main-nav">   <!-- Creamos una lista desordenada  --> <!-- El class ""main nav se utiliza para decirle al css que me haga estilos solo para esa etiqueta." -->
+                 <li  class="main-nav__item"><a  href="./index.html">Menú Princial</a></li><!-- Agregamos elementos a la lista desordenada -->
+                 <li  class="main-nav__item"><a  href="./me.html">Sobre mí</a></li><!-- Agregamos elementos a la lista desordenada -->              
+                 <li class="main-nav__item" ><a  href="./curso.html">Tema que me gustó y no me gustó</a></li>
+                 <li class="main-nav__item" ><a  href="./critica.html">Crítica constructiva</a></li>
+             </ul>
+         </nav>
+         <br>
+        </br>
+        <p> Mi nombre es Elier Moisés García Gómez, nací en el departamento de Baja Verapaz</p>
+        <p>en el municipio del Chol, soy graduado de <strong>Técnico en Electrónica </strong> y</p>
+        <p>fui nombrado como uno de los mejores estudiantes en ultimo año de diversificado</p>
+        <p>en el establecimiento de INTECAP zona 7, actualmente llevo trabajando 3 años en </p>
+        <p>la empresa DIPROLAB, en la cual hago reparaciones y mantenimientos de todos</p>
+        <p>los equipos de Laboratorio en hospitales e Industrias de Alimentos y Farmaceúticas.</p>
+        <p>Tengo 21 años de edad y actualmente estoy cursando la licenciatura de Ingeniería en </p>
+        <p>Sistemas, me estoy esforzando por salir adelante, tengo una mente emprendedora y en</p>
+        <p>un futuro espero poder ser dueño de un empresa propia.</p>
+        <br>
+            <center>
+                <h2>Contáctame para algún servicio 😄</h2>
+                <img src="./img/qr.jpeg" alt="Contáctame">
+                <br>
+                <br>
+                <button><a href="https://wa.link/xfytxk">Contáctame</a></button>
+            </center>
+            <br>
+            <center>
+                <h2>Foto personal</h2>
+            <img src="./img/me.jpeg" alt="Imagen sobre mi persona" title="Imagen de mí" width="370px" height="480px"    >
+            </center>
+        <center>
+            <br>
+            <h2>Mi video favorito es</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MhLQ1cT3DXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+        <h2>Redes Sociales</h2>
+        <center>
+            <!-- <div class="container" id="item1"> -->
+            <img src="./img/fc.png" alt="Mi perfil de facebook" height="40px" height="30px">                    
+            <br>    
+            <button><a href="https://www.facebook.com/Elierg17">Facebook</a></button>
+<!--             </div> -->
+            <br>
+            <br>
+            <img src="./img/ig.png" alt="Mi perfil de Intagram" height="40px" heigth="30px">
+            <br>
+            <button><a href="https://www.instagram.com/elier17_/?hl=es-la">Instagram</a></button>
+            <br>
+            <br>
+            <img src="./img/wh.png" alt="Mi perfil de Whatssap" height="40px" heigth="30px">
+            <br>
+            <button><a href="https://wa.link/xfytxk">Whatssap</a></button>
+            <br>
+            <br>    
+        </center>
+    </header>
+</body>
+</html>

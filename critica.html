@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- Este tipo de etiqueta se cierra solo, a diferencia de Head y body, indica que tipo de documento va a reconocer el navegador. -->
+<html lang="es"> <!-- Se le dice al navegador en que IDIOMA esta -->
+    <head><!-- Aca va todo lo que es mas importante para el navegador para cargar el proyecto que nosotros hicimos pero que no es visual para el usario final, fuentes, css. -->
+        <meta charset="utf-8"><!--  Es para que el navegador comprenda caracteres especiales, como las tildes, una ñ, emojis y se van renderizar como emojis etc  -->
+        <meta name="description" content="Esta pagina te mostrara mi proyecto de Introduccion a Sistemas de Computo"> <!-- Nos ayuda para que la gente que busca en internet en la descripcion que tengamos en la pagina y puede aparecer nuestra pagina. -->
+        <meta name="robots" content="index.follow"><!-- Cuando hago una busqueda en google hace que ciertos robots acomoden en busquedas similares nuestra pagina y se la muestre al usario final, se le pone follow porque autorizo que lo haga y Unfollow para el robot no la muestre. -->
+        <title>Sobre Mi</title><!--  Es el titulo que se muestra en la pestaña del navegador. -->
+        <meta name="viewport" content="with=device-with, inicial-scale=1.0"> <!-- Este meta es cuando se abre la pagina web pueda escalarse un poco el texto y las imagenes y la gente lo pueda ver mejor desde un dispositivo mobil, si no existe este atributo en el telefono hay que hacerle zoom a la pgina desde el movil. -->
+        <link rel="stylesheet" href="./css/style.css"><!-- El primer atributo le indica que va a cargar una hoja de estilos y el segundo indica la ruta o referencia de ese archivo. -->
+        <link rel="icon" type="image/png" href="./img/umg.png"><!-- Para agregar un icono a la pestaña de chrome -->
+    </head>  
+<body>
+    <header><!--  Es el encabezado de la pagina, aca se puede incluir una barra de navegacion, este se basa en la anatomia de htmml -->
+       <H1>Crítica Constructiva</H1>
+        <nav><!-- Creamos una lista de nevagación  -->
+            <ul class="main-nav">   <!-- Creamos una lista desordenada  --> <!-- El class ""main nav se utiliza para decirle al css que me haga estilos solo para esa etiqueta." -->
+                <li  class="main-nav__item"><a  href="./index.html">Menú Princial</a></li>
+                <li  class="main-nav__item"><a  href="./me.html">Sobre mí</a></li><!-- Agregamos elementos a la lista desordenada -->
+                <li class="main-nav__item" ><a  href="./curso.html">Tema que me gustó y no me gustó</a></li>
+                <li class="main-nav__item" ><a  href="./critica.html">Crítica constructiva</a></li>
+            </ul>
+        </nav>
+    <center>
+        <br>
+        </br>
+        <div class="texto3">
+            <img src="./img/critica.png" alt="Crítica" title="Crítica constructiva" width=" 360px" height="320px">
+            <h3 >
+                Crítica Constructiva
+            </h3>
+            <h2>
+                Ing. Harold Cancinos
+            </h2>
+            <p><strong>Debe de mejorar sus metogologías de enseñanza Ingeniero,</strong>  se que el tiempo es poco pero trate de que </p>
+            <p>las clases mas interactivas, creo que algo que no me gustó fue la forma en que nos introdujo HTML, aunque sea básico</p>
+            <p>la presentación que usted proyectó me pareció muy poco intuitiva, pero comprendo, tenemos otros pendientes y el tiempo no es nuestro mejor aliado.</p>

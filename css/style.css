@@ -1,0 +1,110 @@
+.main-nav/* llamamos al contenedor de nav con un punto. */
+{
+    margin: top 10px; /*  */;
+    list-style: none; /* Quitamos los puntos que estan antes del intem de una lista desordenada */
+    padding-left: 0%;/* es una dimension interna  que se pega mas al margen, el espacio interno del conetendor. lo pega mas a la izquierda */
+    text-align: center;/* Se alinea el texto al centro  */
+}
+.main-nav__item
+{
+    display: inline-block; /* enlista la barra de navegacion de vertical a horizontal */
+    align-content: center;
+}
+.main-nav__item a /* le damos estilo a un elemento de  ccs en especifico */
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+.main-nav__item a:hover /* Especifico a la etiqueta a el valor de HOVER, este indica el color que se pondra cuando el mouse esta encima de cada lista */
+{
+color: greenyellow;
+}
+/* .container
+{
+    padding: 1px;
+    overflow: hidden;
+} */
+body .me_style
+{
+    background: -webkit-radial-gradient(gray, black);
+}
+header h1
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center; /* Alineacion del texto al centro */
+    text-shadow: 1px 1px #999; /* agrego una sombra, el primer px es cuanto lo muevo a la derecha y el segundo lo separdo hacia abajo */
+    font-size: 40px; /* Elijo el tamano de la letra en pixeles */
+}
+body {
+    background: -webkit-radial-gradient(#ffffff, gray);
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+button A
+{
+    text-decoration: none;
+    color: black;
+}
+p
+{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+h2
+{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(58, 58, 58);
+}
+h3
+{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(58, 58, 58);
+}
+.texto1 h3
+{
+    font-size:  23px;
+    color:rgb(70, 150, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.texto1 h2
+{
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-display: center;
+}
+.texto2 h3
+{
+    font-size:  23px;
+    color:rgb(221, 57, 57);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.texto2 h2
+{
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-display: center;
+}
+.texto3 h3
+{
+    font-size: 32px;
+    color: rgb(100, 146, 135);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-display: center;
+}
+.texto3 h2
+{
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-display: center;
+}

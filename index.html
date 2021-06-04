@@ -1,0 +1,61 @@
+<!DOCTYPE html> <!-- Este tipo de etiqueta se cierra solo, a diferencia de Head y body, indica que tipo de documento va a reconocer el navegador. -->
+<html lang="es"> <!-- Se le dice al navegador en que IDIOMA esta -->
+    <head><!-- Aca va todo lo que es mas importante para el navegador para cargar el proyecto que nosotros hicimos pero que no es visual para el usario final, fuentes, css. -->
+        <meta charset="utf-8"><!--  Es para que el navegador comprenda caracteres especiales, como las tildes, una ñ, emojis y se van renderizar como emojis etc  -->
+        <meta name="description" content="Esta pagina te mostrara mi proyecto de Introduccion a Sistemas de Computo"> <!-- Nos ayuda para que la gente que busca en internet en la descripcion que tengamos en la pagina y puede aparecer nuestra pagina. -->
+        <meta name="robots" content="index.follow"><!-- Cuando hago una busqueda en google hace que ciertos robots acomoden en busquedas similares nuestra pagina y se la muestre al usario final, se le pone follow porque autorizo que lo haga y Unfollow para el robot no la muestre. -->
+        <title>Proyecto de HTML</title><!--  Es el titulo que se muestra en la pestaña del navegador. -->
+        <meta name="viewport" content="with=device-with, inicial-scale=1.0"> <!-- Este meta es cuando se abre la pagina web pueda escalarse un poco el texto y las imagenes y la gente lo pueda ver mejor desde un dispositivo mobil, si no existe este atributo en el telefono hay que hacerle zoom a la pgina desde el movil. -->
+        <link rel="stylesheet" href="./css/style.css"><!-- El primer atributo le indica que va a cargar una hoja de estilos y el segundo indica la ruta o referencia de ese archivo. -->
+        <link rel="icon" type="image/png" href="./img/umg.png"><!-- Para agregar un icono a la pestaña de chrome -->
+    </head>  
+    <body>
+        <header><!--  Es el encabezado de la pagina, aca se puede incluir una barra de navegacion, este se basa en la anatomia de htmml -->
+           <H1>Proyecto HTML</H1>
+            <nav><!-- Creamos una lista de nevagación  -->
+                <ul class="main-nav">   <!-- Creamos una lista desordenada  --> <!-- El class ""main nav se utiliza para decirle al css que me haga estilos solo para esa etiqueta." -->
+                    <li  class="main-nav__item"><a  href="./me.html">Sobre mí</a></li><!-- Agregamos elementos a la lista desordenada -->
+                    <li class="main-nav__item" ><a  href="./curso.html">Tema que me gustó y no me gustó</a></li>
+                    <li class="main-nav__item" ><a  href="./critica.html">Crítica constructiva</a></li>
+                </ul>
+            </nav>
+            <center>
+            <img src="./img/umg.png" alt="UMG" title="Universidad Mariano Gálvez Logo" width="140px" height="140px">
+            </center>
+            <p>Esta es una presentacion de mi proyecto de HTML</p>
+            <h2>Elier Moises Garcia Gomez</h2>
+            <h3>7590-21-10706</h3>
+            <BR></BR>
+        </header>
+        <main> <!-- Esta va afuera del header y abajo del mismo porque le dira al navegador que despues del encabeza viene todo el contenido principal. -->
+                <center>
+            <figure><!-- Es un contenedor en el que podemos insertar una imagen y modificar el tamaño y posicionarla, es la semantica correcta par el navegador y son buenas prácticas -->
+                    <img src="./img/me.jpg" alt="Imagen sobre mi persona" title="Ilustración de mi" ><!-- Etiqueta para insterar imagenes, ALT sirve para darle descripcion una imagen -->
+                    <figcaption><!-- Agrega una descripción a la imagen que insertamos en el contenedor. -->
+                        <br>
+                        <button><A href="./me.html">Sobre mí</A></button><!--  Es una etiqueta ancla nos permite generar hipervinculos -->
+                    </figcaption>
+                </figure>
+            <BR>
+                <figure><!-- Es un contenedor en el que podemos insertar una imagen y modificar el tamaño y posicionarla, es la semantica correcta par el navegador y son buenas prácticas -->
+                    <img src="./img/things.jpg" alt="Imagen sobre las cosas que me gustaron del curso" title="Cursos"><!-- Etiqueta para insterar imagenes, ALT sirve para darle descripcion una imagen -->
+                    <figcaption><!-- Agrega una descripción a la imagen que insertamos en el contenedor. -->
+                        <br>
+                        <button><A href="./curso.html">Tema que me gustó y no me gustó</A></button><!--  Es una etiqueta ancla nos permite generar hipervinculos -->
+                    </figcaption>
+                </figure>
+            <BR>
+            <section>
+                <figure><!-- Es un contenedor en el que podemos insertar una imagen y modificar el tamaño y posicionarla, es la semantica correcta par el navegador y son buenas prácticas -->
+                    <img src="./img/ing.jpg" alt="Imagen la crítica constructiva hacia el Ingeniero" title="Crítica"><!-- Etiqueta para insterar imagenes, ALT sirve para darle descripcion una imagen -->
+                    <figcaption><!-- Agrega una descripción a la imagen que insertamos en el contenedor. -->
+                        <br>
+                        <button><A href="./critica.html">Crítica constructiva</A></button> <!--  Es una etiqueta ancla nos permite generar hipervinculos -->
+                    </figcaption>
+                </figure>
+            </center>
+            <BR></BR>
+            <BR></BR>
+        </main>
+    </body>
+</html>

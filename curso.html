@@ -1,0 +1,59 @@
+<!DOCTYPE html> <!-- Este tipo de etiqueta se cierra solo, a diferencia de Head y body, indica que tipo de documento va a reconocer el navegador. -->
+<html lang="es"> <!-- Se le dice al navegador en que IDIOMA esta -->
+    <head><!-- Aca va todo lo que es mas importante para el navegador para cargar el proyecto que nosotros hicimos pero que no es visual para el usario final, fuentes, css. -->
+        <meta charset="utf-8"><!--  Es para que el navegador comprenda caracteres especiales, como las tildes, una ñ, emojis y se van renderizar como emojis etc  -->
+        <meta name="description" content="Esta pagina te mostrara mi proyecto de Introduccion a Sistemas de Computo"> <!-- Nos ayuda para que la gente que busca en internet en la descripcion que tengamos en la pagina y puede aparecer nuestra pagina. -->
+        <meta name="robots" content="index.follow"><!-- Cuando hago una busqueda en google hace que ciertos robots acomoden en busquedas similares nuestra pagina y se la muestre al usario final, se le pone follow porque autorizo que lo haga y Unfollow para el robot no la muestre. -->
+        <title>Sobre Mi</title><!--  Es el titulo que se muestra en la pestaña del navegador. -->
+        <meta name="viewport" content="with=device-with, inicial-scale=1.0"> <!-- Este meta es cuando se abre la pagina web pueda escalarse un poco el texto y las imagenes y la gente lo pueda ver mejor desde un dispositivo mobil, si no existe este atributo en el telefono hay que hacerle zoom a la pgina desde el movil. -->
+        <link rel="stylesheet" href="./css/style.css"><!-- El primer atributo le indica que va a cargar una hoja de estilos y el segundo indica la ruta o referencia de ese archivo. -->
+        <link rel="icon" type="image/png" href="./img/umg.png"><!-- Para agregar un icono a la pestaña de chrome -->
+    </head>  
+<body>
+    <header><!--  Es el encabezado de la pagina, aca se puede incluir una barra de navegacion, este se basa en la anatomia de htmml -->
+       <H1>Temas que me gustó y no me gustó</H1>
+        <nav><!-- Creamos una lista de nevagación  -->
+            <ul class="main-nav">   <!-- Creamos una lista desordenada  --> <!-- El class ""main nav se utiliza para decirle al css que me haga estilos solo para esa etiqueta." -->
+                <li  class="main-nav__item"><a  href="./index.html">Menú Princial</a></li>
+                <li  class="main-nav__item"><a  href="./me.html">Sobre mí</a></li><!-- Agregamos elementos a la lista desordenada -->
+                <li class="main-nav__item" ><a  href="./curso.html">Tema que me gustó y no me gustó</a></li>
+                <li class="main-nav__item" ><a  href="./critica.html">Crítica constructiva</a></li>
+            </ul>
+        </nav>
+    <center>
+        <div class="texto1">
+            <img src="./img/like.png" alt="Que me gustó" title="Like" width=" 240px" height="240px">
+            <h3>
+                El tema que más me gustó
+            </h3>
+            <h2>
+                HTML
+            </h2>
+            <p>Aunque la enseñanza no fue del todo intuitiva y tampoco despertó el interés por HTML,</p>
+            <p>a mi siempre me ha gustado, una de mis metas es ser desarrollador FRONTED, quien es el </p>
+            <p> se encarga de toda la interfaz visual que se ve en una página WEB, la que el cliente</p>
+            <p>interactúa a traves de su computadora o teléfono, soy alguien que tiene la habilidad</p>
+            <p> de ser creativa y es por esto que esta rama del HTML es la que mas me me gusta</p>
+        </div>
+        <br>
+        <br></br>
+        <div class="texto2">
+            <img src="./img/dislike.png" alt="Que menos me gustó" title="Dislike" width=" 170px" height="170px">
+            <h3>
+                El tema que menos me gustó
+            </h3>
+            <h2>
+                ALGORITMOS
+            </h2>
+            <p>Los algoritos son una parte importante para el desarrollo de sotfware, siempre se</p>
+            <p>me ha dificultado aprender este tema, anteriormete trabajé proyectos con arduino </p>
+            <p> en el que siempre se trabajo con parte algoritmos para realizar circuitos y el uso</p>
+            <p>de funciones, variables y demás se me hace una parte difícil de aprender, sin embargo</p>
+            <p> esta vez que los estoy viendo, trataré de entender mejor como funcionan, pero recalco</p>
+            <p> también que el uso de un programa en español aun se me complica más.</p>
+        </div>
+    </center>
+    <br>
+    </br>
+</body>
+</html>
